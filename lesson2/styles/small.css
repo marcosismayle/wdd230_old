@@ -24,8 +24,6 @@ body {
     height: 100%;
 }
 
-/* Header */
-
 header,
 footer {
     text-align: center;
@@ -36,16 +34,26 @@ header {
     background-color: var(--primary);
 }
 
-header img{
-    box-shadow: 0 0 30px var(--accent1);
-    margin-top: 10px;
-    width: 200px;
-    height: auto;
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-main ul{
-    padding: 3rem;
-    max-width: 45rem;
+section {
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 75%;
+    border: solid var(--accent1);
+    background-color: var(--secondary);
+    box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: solid var(--accent1);
 }
 
 h1 {
@@ -69,5 +77,6 @@ p {
 }
 
 footer {
+    margin-top: 1.5rem;
     background-color: var(--secondary);
 }
