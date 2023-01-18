@@ -34,6 +34,16 @@ header {
     background-color: var(--primary);
 }
 
+main a {
+    text-decoration: none;
+    color: var(--heading-font);
+    transition: transform 0.2s;
+}
+
+main a:hover {
+    color: var(--secondary);
+}
+
 #grid {
     display: grid;
     grid-template-columns: 1fr;
