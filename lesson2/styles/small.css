@@ -48,6 +48,15 @@ section {
     background-color: var(--secondary);
     box-shadow: 5px 5px 10px #6f7364;
     text-align: center;
+    transition: transform 0.2s;
+}
+
+section:hover {
+    transform: scale(1.05);
+}
+
+section p:nth-child(5) {
+    text-align: justify;
 }
 
 img {

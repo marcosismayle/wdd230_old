@@ -1,8 +1,16 @@
 const d = new Date();
-let year = d.getFullYear();
+let currentYear = d.getFullYear();
 
-document.getElementById("currentYear").innerHTML = year;
+document.getElementById("currentYear").innerHTML = currentYear;
 
 let lastmodified = new Date(document.lastModified);
 
-document.getElementById("lastUpdated").innerHTML = lastmodified
+let month = lastmodified.getMonth() + 1; // getMonth() returns a 0-based value, so adding 1 to match the correct month
+let date = lastmodified.getDate();
+let year = lastmodified.getFullYear();
+let hours = lastmodified.getHours();
+let minutes = lastmodified.getMinutes();
+let seconds = lastmodified.getSeconds();
+let dateString = "Last Updated: " + month + "/" + date + "/" + year + " " + hours + ":" + minutes + ":" + seconds;
+
+document.getElementById("lastUpdated").innerHTML = dateString;
