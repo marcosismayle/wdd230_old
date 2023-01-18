@@ -1,4 +1,10 @@
-@media screen and (min-width: 32.5em) {
+@media screen and (min-width: 35.5em) {
+    body {
+        margin:auto 15%;
+        max-width: 50em;
+        box-shadow: 0 0 30px var(--accent1);
+    }
+
     h1 {
         font-size: 2.5rem;
     }
@@ -13,5 +19,9 @@
 
     header img {
         float: right;
+    }
+
+    main ul{
+        margin-left: 10%;
     }
   }
