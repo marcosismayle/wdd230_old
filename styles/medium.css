@@ -7,6 +7,10 @@
         font-size: 1.5rem;
     }
 
+    header {
+        display: flex;
+    }
+
     header img {
         float: right;
     }
