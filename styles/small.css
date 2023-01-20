@@ -26,16 +26,10 @@ body {
     margin: auto;
 }
 
-/* Header */
-
-header,
-footer {
-    text-align: center;
-    padding: 0.75rem;
-}
-
 header {
     background-color: var(--primary);
+    text-align: center;
+    padding: 0.75rem;
 }
 
 header img{
@@ -73,4 +67,6 @@ p {
 
 footer {
     background-color: var(--secondary);
+    text-align: center;
+    padding: 0.75rem;
 }
