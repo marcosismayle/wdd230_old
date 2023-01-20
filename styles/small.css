@@ -22,6 +22,8 @@ body {
     background-color: var(--accent2);
     font-family: var(--paragraph-font);
     height: 100%;
+    max-width: 800px;
+    margin: auto;
 }
 
 /* Header */
@@ -38,9 +40,9 @@ header {
 
 header img{
     box-shadow: 0 0 30px var(--accent1);
-    margin-top: 10px;
     width: 200px;
     height: auto;
+    margin-top: 60px;
 }
 
 main ul{
