@@ -24,6 +24,7 @@ body {
     height: 100%;
     max-width: 800px;
     margin: auto;
+    margin-top: 40px;
 }
 
 header {
@@ -36,7 +37,7 @@ header img{
     box-shadow: 0 0 30px var(--accent1);
     width: 200px;
     height: auto;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 main ul{
