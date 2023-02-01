@@ -113,6 +113,8 @@ main p, main p.colored {
 main ol, main ul {
     margin: auto 10%;
     text-align: left;
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
 }
 
 nav {
@@ -126,6 +128,7 @@ nav {
 	align-items: center;
 
 }
+
 nav a {
   padding:1em;
   width: 100%;
@@ -189,3 +192,30 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+/* Table*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  font-size: 12px;
+  background-color: var(--primary-color);
+}
+
+th h3 {
+  color: var(--paragraph-color-on-color);
+}
+
+
+
+
